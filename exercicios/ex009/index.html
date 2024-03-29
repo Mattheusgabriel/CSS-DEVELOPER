@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinadores</title>
+    <style>
+        div ~ p {
+            color: red;
+        }
+
+        .fundo-verde ~ p {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="fundo-verde">
+        <p>Paragrafo 1 dentro da div</p>
+        <p>Paragrafo 2 dentro da div</p>
+        <span>
+            <p>Paragrafo 3 dentro de span</p>
+        </span>
+    </div>
+
+    <p>Paragrafo 4 fora da div</p>
+    <p>Paragrafo 5 fora da div</p>
+
+    <div class="fundo-verde">
+        <p>Paragrafo 6 dentro da div</p>
+        <p>Paragrafo 7 dentro da div</p>
+        <span>
+            <p>Paragrafo 8 dentro da div, dentro do span</p>
+        </span>
+    </div>
+
+    <p>Paragrafo 9 fora da div</p>
+    <p>paragrafo 10 fora da div</p>
+
+    <div class="fundo-azul">
+        <p>Paragrafo 11 dentro da div</p>
+        <p>Paragrafo 12 dentro da div</p>
+        <span>
+            <p>Parafo 13 dentro da div, dentro de span</p>
+        </span>
+    </div>
+
+    <p>Paragrafo 14 fora da div</p>
+    <p>Paragrafo 15 fora da div</p>
+
+</body>
+</html>
