@@ -1,0 +1,10 @@
+.container {
+    background-color: palegreen;
+    padding: 10px;
+    display: inline-flex;
+}
+
+.elemento {
+    background-color: orange;
+    margin: 10px;
+}
