@@ -7,10 +7,14 @@
 
 #container-01 {
     flex-direction: row;
+    flex-wrap: wrap;
+
 }
 
 #container-02 {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    height: 300px;
+    flex-wrap: wrap;
 }
 
 .item {
