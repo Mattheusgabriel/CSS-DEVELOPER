@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    background-color: palegreen;
+    margin: 10px;
+    padding: 5px;
+}
+
+.item {
+    background-color: orange;
+    margin: 10px;
+}
+
+#container-01 {
+    flex-flow: row wrap;
+    
+}
+
+#container-02 {
+   flex-flow: column wrap;
+   height: 300px;
+}
+
