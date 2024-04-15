@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.container {
+    background-color: palegreen;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+}
+
+#container-01 {
+  flex-flow: row wrap;
+}
+
+#container-02 {
+    flex-flow: column wrap;
+}
+
+.item {
+    background-color: orange;
+    margin: 5px;
+    padding: 4px;
+}
+
+.item-09 {
+    order: -1;
+}
+
+.item-08 {
+    order: 1;
+}
+
+.item-07 {
+    order: -1;
+}
+
+.item-06 {
+    order: 1;
+}
+
+.item-10 {
+    order: -10;
+}
+
+
