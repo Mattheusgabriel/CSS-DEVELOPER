@@ -1,0 +1,21 @@
+.container {
+    background-color: blueviolet;
+    height: 300px;
+    margin: 30px;
+    padding: 20px;
+
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.item {
+    background-color: yellow;
+    width: 100px;
+    text-align: center;
+}
+
+.item-02 {
+    flex-basis: 0;
+}
