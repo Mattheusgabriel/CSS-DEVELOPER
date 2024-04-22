@@ -1,37 +1,39 @@
 .container {
     background-color: yellow;
-    margin: 20px;
-    padding: 10px;
-    height: 500px;
+    margin-bottom: 30px;
+    padding: 20px;
 
     display: grid;
     grid-template-columns: max-content;
+    grid-template-rows: 200px;
 }
+   
 
 .item {
     border: 1px solid black;
 }
 
 .item-01 {
-    background-color: palevioletred;
+    background-color: firebrick;
 }
 
 .item-02 {
-    background-color: blue;
+    background-color: darkslategray;
 }
 
 .item-03 {
-    background-color: palegreen;
+    background-color: blue;
 }
 
 .item-04 {
-    background-color: cornflowerblue;
+    background-color: blueviolet;
 }
 
 .item-05 {
-    background-color: lightblue;
+    background-color: cornflowerblue;
 }
 
+
 .item-06 {
-    background-color: orange;
+    background-color: aquamarine;
 }
