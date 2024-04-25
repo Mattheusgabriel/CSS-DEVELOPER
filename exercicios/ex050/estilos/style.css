@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 200px 10fr;
+    grid-template-rows: 100px 3fr 1fr;
+    height: 100vh;
+
+    grid-template-areas: "logo navbar"
+     "sidebar main"
+      "sidebar footer";
+}
+
+.logo {
+    background-color: lightblue;
+    grid-area: logo;
+}
+
+nav{
+    background-color: beige;
+    grid-area: navbar;
+}
+
+aside {
+    background-color: peru;
+    grid-area: sidebar;
+}
+
+main {
+    background-color: azure;
+    grid-area: main;
+}
+
+footer {
+    background-color: burlywood;
+    grid-area: footer;
+}
