@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px repeat(3, 300px);
+    
+    grid-template-areas: "header header header header"
+    "nav main main main" "nav section-01 section-02 section-03"
+    "nav footer footer footer";
+
+}
+
+header {
+    background-color: lightblue;
+    text-align: center;
+    grid-area: header;
+}
+
+nav {
+    background-color: lightgreen;
+    text-align: center;
+    grid-area: nav;
+}
+
+main {
+    background-color: lightsalmon;
+    text-align: center;
+    grid-area: main;
+}
+
+.section-01 {
+    background-color: rgba(173, 216, 230, 0.804);
+    text-align: center;
+    grid-area: section-01;
+}
+
+.section-02 {
+    background-color: white;
+    text-align: center;
+    grid-area: section-02;
+}
+
+.section-03 {
+    background-color: rgba(139, 0, 139, 0.718);
+    text-align: center;
+    grid-area: section-03;
+}
+
+footer {
+    background-color: lightpink;
+    text-align: center;
+    grid-area: footer;
+}
+
+
+
+
