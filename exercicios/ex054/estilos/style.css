@@ -62,7 +62,7 @@ footer {
     padding: 50px;
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (min-width: 320px) and (max-width: 690px){
     body {
         background-color: rgba(144, 238, 144, 0.224);
     }
@@ -75,13 +75,50 @@ footer {
         flex-direction: column;
     }
 
+    .item {
+        background-color: rgba(144, 238, 144, 0.322);
+    }
+
     .image-card {
-        background-color: rgba(144, 238, 144, 0.232);
+        background-color: rgba(144, 238, 144, 0.414);
+        flex-basis: 100px;
     }
 
     footer {
         background-color: lightgreen;
     }
+    
 }
+
+@media screen and (min-width: 690px) and (max-width: 768px){
+    body {
+        background-color: rgba(255, 255, 0, 0.212);
+    }
+
+    header {
+        background-color: yellow;
+    }
+
+    .details {
+        flex-direction: column;
+    }
+
+    .item {
+        background-color: rgba(255, 255, 0, 0.34);
+    }
+
+    .image-card {
+        background-color: rgba(255, 255, 0, 0.329);
+        flex-basis: 150px;
+    }
+
+    footer {
+        background-color: yellow;
+    }
+    
+}
+
+
+
 
 
