@@ -1,0 +1,9 @@
+summary::marker {
+    color: red;
+    content: "➢";
+}
+
+li::marker {
+    color: blue;
+    content: "➳";
+}
