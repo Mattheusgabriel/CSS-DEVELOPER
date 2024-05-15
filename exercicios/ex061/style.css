@@ -1,0 +1,17 @@
+button {
+    color: white;
+    background-color: lightblue;
+    width: 100px;
+    height: 30px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+button:active {
+    background-color: darkblue;
+}
+
+
+
