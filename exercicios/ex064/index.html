@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h3>Faça sua compra:</h3>
+         <label for="email">E-mail:</label>
+         <input type="email" name="email">
+         <span class="ERROR">E-mail inválido</span>
+
+         <label for="código-produto">Código do produto:</label>
+         <input type="number" name="código-produto" min="1000">
+         <span class="ERROR">Código inválido</span>
+        
+         <label for="cumpom">Cupom de desconto:</label>
+         <input type="text" pattern="[a-z]+" placeholder="Apenas letras minúscula">
+         <span class="ERROR">cupom inválido</span>
+
+         <label for="data-nascimento">Data de nascimento:</label>
+         <input type="date" name="data-nascimento" min="1962-01-01" max="2004-12-31">
+         <span class="ERROR">Data inválida</span>
+
+         <label for="quantidade">Quantidade:</label>
+         <input type="number" name="amount" min="3" max="10">
+         <span class="ERROR">Campo inválido</span>
+         <label>
+            <input type="checkbox" name="checkbox" required>
+            <span>Li e aceito os termos de uso</span>
+        </label>
+
+        <button type="submit">Comprar</button>
+    </form>
+</body>
+</html>

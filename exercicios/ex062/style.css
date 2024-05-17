@@ -1,0 +1,16 @@
+label {
+    display: block;
+    margin: 13px;
+}
+
+input, select:focus {
+    outline: 2px solid blue;
+}
+
+select:focus {
+    background-color: yellow;
+}
+
+label:focus-within {
+    font-weight: bolder;
+}
