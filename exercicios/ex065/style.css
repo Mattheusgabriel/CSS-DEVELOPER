@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    perspective: 300px;
+
+}
+
+.box {
+    background-image: linear-gradient(90deg, red 0%, violet);
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+  
+    perspective: 300px;
+}
+
+.box:hover {
+    transform: rotate(-500deg);
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.51);
+    transition: 5s;
+   
+}
